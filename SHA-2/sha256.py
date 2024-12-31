@@ -4,7 +4,6 @@ from projectq.backends import CircuitDrawer, ResourceCounter, CommandPrinter, Cl
 from projectq.meta import Loop, Compute, Uncompute, Control, Dagger
 from math import floor, ceil, log2
 
-### Input MSG 256-bit
 
 def quantum_and(a, b, c, ancilla):
 
